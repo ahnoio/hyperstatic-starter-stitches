@@ -38,7 +38,7 @@ npm run preview
 ## Features
 
 - [Vite](https://vitejs.dev/) for dev tooling
-- CSS modules + nested syntax (or migrate easely to your fav styling library)
+- CSS-in-JS with [Stitches](https://stitches.dev/)
 - Smart CSS defaults on top of [sanitize.css](https://csstools.github.io/sanitize.css/)
 - [JSX](https://reactjs.org/docs/introducing-jsx.html) ready to go
 - Absolute imports (say goodbye to the `../../` hell)
