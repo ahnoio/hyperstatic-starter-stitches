@@ -1,14 +1,12 @@
 <h1 align="center">
-  Hyperstatic starter
+  Hyperstatic starter using <a href="https://stitches.dev/">Stitches</a>
 </h1>
-
-[Live demo](https://hyperstatic-starter.netlify.app/)
 
 [Hyperstatic](https://hyperstatic.dev/)
 
 ## 🚀 Quick start:
 
-[Click here to use this template](https://github.com/noahmarro/hyperstatic-starter/generate), or run these commands:
+[Click here to use this template](https://github.com/noahmarro/hyperstatic-starter-stitches/generate), or run these commands:
 
 ```
 # Clone project
@@ -20,7 +18,7 @@ npm install         # Install dependencies
 npm run dev         # Dev server + live reload
 ```
 
-Or use a [.zip download](https://github.com/noahmarro/hyperstatic-starter/archive/master.zip)
+Or use a [.zip download](https://github.com/noahmarro/hyperstatic-starter-stitches/archive/master.zip)
 
 #### Building your site :
 
