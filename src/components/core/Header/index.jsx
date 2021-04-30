@@ -1,12 +1,27 @@
 import Logo from '/src/components/core/Logo'
 import { Link } from 'hyperstatic'
 
-import utils from '/src/styles/utils.module.css'
-import styles from './header.module.css'
+import { css } from '/src/styles/stitches.config'
+import { container } from '/src/styles/utils-css.js'
+
+const wrapper = css({
+  margin: '3rem 0',
+})
+const inner = css({
+  display: 'flex',
+  alignItems: 'center',
+  '& a:first-child': {
+    marginInlineEnd: 'auto',
+  },
+  '& a:not(:first-child)': {
+    marginInlineStart: '1rem',
+  },
+})
+const composedInner = container(inner)
 
 const Header = () => (
-  <header class={styles.header}>
-    <div class={[utils.container, styles.inner]}>
+  <header className={wrapper}>
+    <div className={composedInner}>
       <Logo />
       <Link href="/secondary">Secondary page</Link>
       <Link href="/counter">Counter page</Link>

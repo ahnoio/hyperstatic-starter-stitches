@@ -1,7 +1,7 @@
-import utils from '/src/styles/utils.module.css'
+import { container } from '/src/styles/utils-css.js'
 
 const Loader = () => (
-  <div class={utils.container}>
+  <div className={container}>
     <h2>Loading, please wait :)</h2>
   </div>
 )

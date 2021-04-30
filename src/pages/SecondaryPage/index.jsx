@@ -1,9 +1,9 @@
 import { Link } from 'hyperstatic'
 
-import utils from '/src/styles/utils.module.css'
+import { container } from '/src/styles/utils-css.js'
 
 const SecondaryPage = () => (
-  <div class={utils.container}>
+  <div className={container}>
     <h1>Hello from secondary page</h1>
     <Link href="/">Go back to home page</Link>
   </div>

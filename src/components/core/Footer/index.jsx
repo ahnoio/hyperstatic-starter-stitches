@@ -1,10 +1,10 @@
-import utils from '/src/styles/utils.module.css'
+import { container } from '/src/styles/utils-css.js'
 import styles from './footer.module.css'
 
 const Footer = () => (
-  <footer class={styles.footer}>
-    <div class={utils.container}>
-      <div class={styles.links}>
+  <footer className={styles.footer}>
+    <div className={container}>
+      <div className={styles.links}>
         <a
           href="https://github.com/loteoo/hyperstatic-starter"
           target="_blank"

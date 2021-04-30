@@ -1,5 +1,5 @@
 import Input from '/src/components/ui/Input'
-import utils from '/src/styles/utils.module.css'
+import { container, grid } from '/src/styles/utils-css.js'
 
 // Initialize state
 export const init = (state) => ({
@@ -14,9 +14,9 @@ const SetB = (state, ev) => ({ ...state, b: Number(ev.target.value) })
 
 // View
 const HomePage = ({ a, b }) => (
-  <div class={utils.container}>
+  <div className={container}>
     <h1>👋 Welcome to hyperstatic!</h1>
-    <div class={utils.grid}>
+    <div className={grid}>
       <Input type="number" name="a" value={a} onchange={SetA} />
       <Input type="number" name="b" value={b} onchange={SetB} />
     </div>

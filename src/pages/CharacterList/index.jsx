@@ -1,4 +1,4 @@
-import utils from '/src/styles/utils.module.css'
+import { container, grid } from '/src/styles/utils-css.js'
 import { Link, loadStatic } from 'hyperstatic'
 
 import styles from './character-list.module.css'
@@ -34,15 +34,15 @@ export const init = (state) => [
 
 // View
 const CharacterList = (state) => (
-  <div class={utils.container}>
+  <div className={container}>
     <h2>Data fetching example</h2>
     <h4>Rick and Morty characters</h4>
-    <div class={utils.grid}>
+    <div className={grid}>
       {state.characterlist.map((character) => (
-        <Link class={styles.card} href={`/characters/${character.id}`}>
+        <Link className={styles.card} href={`/characters/${character.id}`}>
           {({ status }) => (
             <span>
-              <h4 class={styles.cardTitle}>{character.name}</h4>
+              <h4 className={styles.cardTitle}>{character.name}</h4>
               <small>
                 {character.species} - {character.status} - {status}
               </small>

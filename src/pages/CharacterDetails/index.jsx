@@ -1,4 +1,4 @@
-import utils from '/src/styles/utils.module.css'
+import { container } from '/src/styles/utils-css.js'
 import { loadStatic } from 'hyperstatic'
 
 import styles from './character-details.module.css'
@@ -36,16 +36,16 @@ const CharacterDetails = (state) => {
 
   if (!character) {
     return (
-      <div class={utils.container}>
+      <div className={container}>
         <h2>Loading...</h2>
       </div>
     )
   }
 
   return (
-    <div class={utils.container}>
+    <div className={container}>
       <h2>{character.name}</h2>
-      <div class={styles.container}>
+      <div className={styles.container}>
         <img
           width="200"
           height="200"
@@ -53,7 +53,7 @@ const CharacterDetails = (state) => {
           alt={character.name}
         />
         <div>
-          <div class={styles.infoGrid}>
+          <div className={styles.infoGrid}>
             <span>Status:</span>
             <span>{character.status}</span>
             <span>Species:</span>
