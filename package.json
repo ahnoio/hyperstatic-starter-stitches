@@ -1,10 +1,6 @@
 {
-  "version": "1.0.0",
-  "name": "hyperapp-starter",
-  "description": "Hyperapp PWA starter",
-  "author": "Alexandre Lotte <dev@alexlotte.ca>",
-  "scripts": {
-    "dev": "vite",
+   "scripts": {
+    "start": "vite",
     "build": "vite build",
     "prerender": "npm run build && hyperstatic",
     "preview": "vite preview --port 8080"
