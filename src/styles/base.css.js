@@ -1,19 +1,12 @@
-import sanitize from 'sanitize.css'
-import sanitizeForms from 'sanitize.css/forms.css'
-import sanitizeAssets from 'sanitize.css/assets.css'
-import sanitizeTypography from 'sanitize.css/typography.css'
-import sanitizeReduceMotion from 'sanitize.css/reduce-motion.css'
+import 'sanitize.css'
+import 'sanitize.css/forms.css'
+import 'sanitize.css/assets.css'
+import 'sanitize.css/typography.css'
+import 'sanitize.css/reduce-motion.css'
 
 import { global } from './stitches.config'
 
 const globalStyles = global({
-  '@import': [
-    sanitize,
-    sanitizeForms,
-    sanitizeAssets,
-    sanitizeTypography,
-    sanitizeReduceMotion,
-  ],
   'html': {
     color: '$text',
     backgroundColor: '$background',

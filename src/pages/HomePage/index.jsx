@@ -1,5 +1,5 @@
 import Input from '/src/components/ui/Input'
-import { container, grid } from '/src/styles/utils-css.js'
+import { container, grid } from '/src/styles/utils.css'
 
 // Initialize state
 export const init = (state) => ({

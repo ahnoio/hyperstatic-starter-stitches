@@ -29,4 +29,5 @@ export const { styled, css, global, keyframes, getCssString, theme } = createCss
     bp3: '(min-width: 1024px)',
   },
   utils: {},
-});
+  insertionMethod: 'append',
+})

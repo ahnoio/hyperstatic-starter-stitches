@@ -1,7 +1,7 @@
-import { container, grid } from '/src/styles/utils-css.js'
+import { container, grid } from '/src/styles/utils.css'
 import { Link, loadStatic } from 'hyperstatic'
 
-import styles from './character-list.module.css'
+import { css } from '/src/styles/stitches.config'
 
 const HandleCharacters = (state, data) => ({
   ...state,
@@ -33,16 +33,33 @@ export const init = (state) => [
 ]
 
 // View
+const card = css({
+  display: 'block',
+  padding: '1rem',
+  border: '1px solid $divider',
+  borderRadius: '0.25rem',
+  textDecoration: 'none',
+  '&:hover': {
+    backgroundColor: '$altBackground',
+  },
+})
+const cardTitle = css({
+  margin: 0,
+  whiteSpace: 'nowrap',
+  overflow: 'hidden',
+  textOverflow: 'ellipsis',
+})
+
 const CharacterList = (state) => (
   <div className={container}>
     <h2>Data fetching example</h2>
     <h4>Rick and Morty characters</h4>
     <div className={grid}>
       {state.characterlist.map((character) => (
-        <Link className={styles.card} href={`/characters/${character.id}`}>
+        <Link className={card} href={`/characters/${character.id}`}>
           {({ status }) => (
             <span>
-              <h4 className={styles.cardTitle}>{character.name}</h4>
+              <h4 className={cardTitle}>{character.name}</h4>
               <small>
                 {character.species} - {character.status} - {status}
               </small>

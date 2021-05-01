@@ -3,9 +3,4 @@ export default {
     jsxFactory: 'h',
     jsxInject: `import h from 'hyperapp-jsx-pragma'`
   },
-  css: {
-    modules: {
-      localsConvention: 'camelCase'
-    }
-  }
 }

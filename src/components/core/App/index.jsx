@@ -3,7 +3,7 @@ import { Router } from 'hyperstatic'
 import Footer from '/src/components/core/Footer'
 
 // import '/src/styles/base.module.css'
-import globalStyles from '/src/styles/base-css.js'
+import globalStyles from '/src/styles/base.css'
 
 
 const App = (state) => {

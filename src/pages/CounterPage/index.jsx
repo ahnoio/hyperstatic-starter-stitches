@@ -1,6 +1,6 @@
 import Button from '/src/components/ui/Button'
 
-import { container } from '/src/styles/utils-css.js'
+import { container } from '/src/styles/utils.css'
 
 // Initialize state
 export const init = (state) => ({

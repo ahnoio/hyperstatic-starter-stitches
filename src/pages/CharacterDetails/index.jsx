@@ -1,7 +1,7 @@
-import { container } from '/src/styles/utils-css.js'
+import { container } from '/src/styles/utils.css'
 import { loadStatic } from 'hyperstatic'
 
-import styles from './character-details.module.css'
+import { css } from '/src/styles/stitches.config'
 
 const HandleCharacter = (state, data) => ({
   ...state,
@@ -31,6 +31,17 @@ export const init = (state, location) => [
 ]
 
 // View
+const wrapper = css({
+  display: 'grid',
+  gridTemplateColumns: 'auto 1fr',
+  gridGap: '1rem',
+})
+const infoGrid = css({
+  display: 'grid',
+  gridTemplateColumns: 'auto 1fr',
+  gridGap: '0.25rem 1rem',
+})
+
 const CharacterDetails = (state) => {
   const character = state.characters[state.location.params.id]
 
@@ -45,7 +56,7 @@ const CharacterDetails = (state) => {
   return (
     <div className={container}>
       <h2>{character.name}</h2>
-      <div className={styles.container}>
+      <div className={wrapper}>
         <img
           width="200"
           height="200"
@@ -53,7 +64,7 @@ const CharacterDetails = (state) => {
           alt={character.name}
         />
         <div>
-          <div className={styles.infoGrid}>
+          <div className={infoGrid}>
             <span>Status:</span>
             <span>{character.status}</span>
             <span>Species:</span>

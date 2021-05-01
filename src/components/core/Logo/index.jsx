@@ -1,12 +1,17 @@
-import logo from '/src/assets/logo.png'
+import logoSrc from '/src/assets/logo.png'
 
 import { Link } from 'hyperstatic'
 
-import styles from './logo.module.css'
+import { css } from '/src/styles/stitches.config'
+
+const logo = css({
+  display: 'block',
+  width: '2rem',
+})
 
 const Logo = () => (
-  <Link href="/" className={styles.logo}>
-    <img src={logo} alt="Main logo" width="32" height="32" />
+  <Link href="/" className={logo}>
+    <img src={logoSrc} alt="Main logo" width="32" height="32" />
   </Link>
 )
 
