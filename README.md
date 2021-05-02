@@ -2,8 +2,7 @@
   Hyperstatic starter using Stitches
 </h1>
 
-[Hyperstatic](https://hyperstatic.dev/)
-
+[Hyperstatic](https://hyperstatic.dev/)<br>
 [Stitches]
 
 ## 🚀 Quick start:
