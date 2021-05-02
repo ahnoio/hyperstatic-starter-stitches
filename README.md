@@ -3,6 +3,7 @@
 </h1>
 
 [Hyperstatic](https://hyperstatic.dev/)
+
 [Stitches]
 
 ## 🚀 Quick start:
