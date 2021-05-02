@@ -1,8 +1,9 @@
 <h1 align="center">
-  Hyperstatic starter using <a href="https://stitches.dev/">Stitches</a>
+  Hyperstatic starter using Stitches
 </h1>
 
 [Hyperstatic](https://hyperstatic.dev/)
+[Stitches]
 
 ## 🚀 Quick start:
 
@@ -36,7 +37,7 @@ npm run preview
 ## Features
 
 - [Vite](https://vitejs.dev/) for dev tooling
-- CSS-in-JS with [Stitches](https://stitches.dev/)
+- CSS-in-JS with [Stitches]
 - Smart CSS defaults on top of [sanitize.css](https://csstools.github.io/sanitize.css/)
 - [JSX](https://reactjs.org/docs/introducing-jsx.html) ready to go
 - Absolute imports (say goodbye to the `../../` hell)
@@ -45,3 +46,5 @@ npm run preview
 ---
 
 This starter project was based on this [Hyperapp starter](https://github.com/loteoo/hyperapp-starter).
+
+[stitches]: https://stitches.dev/
