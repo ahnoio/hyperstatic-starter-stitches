@@ -18,7 +18,7 @@ export const grid = css({
 // Bring attention to some content
 export const callout = css({
   padding: '1em',
-  marin: '1rem 0',
+  margin: '1rem 0',
   backgroundColor: '$altBackground',
   borderRadius: '0.25rem',
   '& span[role="img"]': {
