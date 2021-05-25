@@ -19,13 +19,13 @@ const globalStyles = global({
   },
 
   // Text selection styling
-  '&::selection': {
+  '::selection': {
     background: '$accent',
     color: '$background',
   },
 
   // Keyboard focus styles
-  '&:focus-visible': {
+  ':focus-visible': {
     outlineOffset: 2,
     outline: '2px dashed $accent'
   },
