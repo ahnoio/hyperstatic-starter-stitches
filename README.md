@@ -11,7 +11,7 @@
 
 ```
 # Clone project
-git clone https://github.com/noahmarro/hyperstatic-starter.git
+git clone https://github.com/ahnoio/hyperstatic-starter.git
 
 cd hyperstatic-starter
 
