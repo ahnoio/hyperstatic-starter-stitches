@@ -7,7 +7,7 @@
 
 ## 🚀 Quick start:
 
-[Click here to use this template](https://github.com/noahmarro/hyperstatic-starter-stitches/generate), or run these commands:
+[Click here to use this template](https://github.com/ahnoio/hyperstatic-starter-stitches/generate), or run these commands:
 
 ```
 # Clone project
@@ -19,7 +19,7 @@ npm install         # Install dependencies
 npm run dev         # Dev server + live reload
 ```
 
-Or use a [.zip download](https://github.com/noahmarro/hyperstatic-starter-stitches/archive/master.zip)
+Or use a [.zip download](https://github.com/ahnoio/hyperstatic-starter-stitches/archive/master.zip)
 
 #### Building your site :
 
