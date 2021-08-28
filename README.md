@@ -16,7 +16,7 @@ git clone https://github.com/ahnoio/hyperstatic-starter.git
 cd hyperstatic-starter
 
 npm install         # Install dependencies
-npm run dev         # Dev server + live reload
+npm start           # Dev server + live reload
 ```
 
 Or use a [.zip download](https://github.com/ahnoio/hyperstatic-starter-stitches/archive/master.zip)
